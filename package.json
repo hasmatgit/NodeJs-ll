@@ -1,0 +1,11 @@
+{
+  "name": "full_node_js_2",
+  "version": "1.0.0",
+  "description": "backend phase 2",
+  "main": "index.js",
+  "scripts": {
+    "test": "Hasmat"
+  },
+  "author": "hasmat",
+  "license": "ISC"
+}
