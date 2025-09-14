@@ -1,11 +1,16 @@
 {
   "name": "full_node_js_2",
   "version": "1.0.0",
-  "description": "backend phase 2",
+  "description": "backend phase 2 new",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "Hasmat"
+    "dev": "nodemon src/index.js"
   },
   "author": "hasmat",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.10",
+    "prettier": "^3.6.2"
+  }
 }
