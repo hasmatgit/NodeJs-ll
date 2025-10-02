@@ -15,6 +15,11 @@ app.use(express.static("public"))
 app.use(cookieParser())
 
 
+// ✅ Default root route
+app.get("/", (req, res) => {
+    res.send("🚀 API is working! Welcome to my backend.")
+})
+
 //routes import
 import userRouter from './routes/user.routes.js'
 import healthcheckRouter from "./routes/healthcheck.routes.js"
